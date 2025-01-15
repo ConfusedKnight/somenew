@@ -41,14 +41,19 @@
 // console.log(today.getHours());
 // console.log(today.getMinutes());
 // console.log(today.getSeconds());
+
+
+// let i;
 // let sit = "aarush";
 // for(i in sit){
 //     console.log(i);
 // }
 // let st = "drishitya";
 // for(i of st){
+//     console.log(i);
 //     console.log(st[i]);
 // }
+
 
 //fizzbuzz
 // let i;
@@ -74,6 +79,9 @@
 // console.log(aardiv(10))
 
 // let num = [1,2,3,4,5];
+
+// let task0 = num.map((x)=>x*2);
+// console.log(task0);
 
 // let task1 = num.map((x)=>x % 2 == 0);
 // console.log(task1);
