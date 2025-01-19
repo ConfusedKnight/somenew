@@ -103,6 +103,20 @@
 // console.log(user["fullname"]);
 // user.getUserName();
 
+let my = {
+
+};
+function isEmpty(obj){
+    let check = Object.values(obj)
+    if(check.length == 0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+console.log(isEmpty(my))
 
 
 
