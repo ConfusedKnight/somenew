@@ -103,22 +103,47 @@
 // console.log(user["fullname"]);
 // user.getUserName();
 
-let my = {
+// let my = {
 
-};
-function isEmpty(obj){
-    let check = Object.values(obj)
-    if(check.length == 0){
-        return true
-    }
-    else{
-        return false
-    }
+// };
+// function isEmpty(obj){
+//     let check = Object.values(obj)
+//     if(check.length == 0){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// console.log(isEmpty(my))
+
+// let user = [
+//     {
+//         fullname: "kharn",
+//         age: 500
+//     },
+//     {
+//         fullname: "sigismund",
+//         age: 400,
+//         teran : {
+//             fullname:  "garvi",
+//             age: 300   
+//         }
+//     }
+
+// ]
+// let filtered = user.filter((user)=>user.age>=400);
+// for(let i in user){
+//     console.log(filtered[i].fullname);
+// }
+// import{add} from "./01.js";
+// console.log(add());
+function add(){
+let value1 = Number(document.getElementById("val1").value);
+let value2 = Number(document.getElementById("val2").value);
+console.log(value1+value2);
 }
-
-console.log(isEmpty(my))
-
-
 
 
 
