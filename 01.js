@@ -91,3 +91,8 @@
 
 // let task3 = num.reduce((acc=1,curr)=>acc*curr);
 // console.log(task3);
+
+// function add(){
+//     return (2+2);
+// }
+// export{add};
