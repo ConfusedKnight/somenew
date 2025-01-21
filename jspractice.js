@@ -145,5 +145,9 @@ let value2 = Number(document.getElementById("val2").value);
 console.log(value1+value2);
 }
 
+let testing = [];
+let x = "hello"
+testing.push(x);
+console.log(testing);
 
 
