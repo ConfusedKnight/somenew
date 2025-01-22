@@ -12,16 +12,27 @@ addbutton.addEventListener('click',function(){
         document.getElementById('count').innerHTML = c;
     //naya element banaye to store the tasks
     var paragraph = document.createElement('p');
+    var check_task = document.createElement('button');
+    var end_task = doucument.createElement('button');
 
     //each naya element lai same class diye for design
     paragraph.classList.add('task_style');
+    check_task.classList.add('comp_task');
+    check_task.innerText = "X";
 
     //value nikaley input box bata
     paragraph.innerText = input.value + " ( " + today.toLocaleDateString() + " )";
 
     //append garera p tag haru thapidiye
     tasklist.appendChild(paragraph);
+    paragraph.appendChild(check_task);
+
+    check_task.addEventListener('click',function(){
+        paragraph.classList.add('cutout');
+    });
+
     }else if(input.value.length==0){
         alert('FUCK YOU');
     }
 });
+
