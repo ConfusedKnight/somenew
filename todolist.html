@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+        *{
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #enter_task{
+            width: 300px;
+            height: 50px;
+        }
+        #add_task{
+            width: 50px;    
+            height: 50px;
+            font-size: 25px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+        }
+        #main_box{
+            border-style: solid;
+            border-radius: 3px;
+            border-color: black;
+            width: 900px;
+            padding: 20px;
+            background-color: antiquewhite;
+        }
+        .task_style{
+            background-color: rgb(202, 199, 199);
+            border: solid 1px black;
+            padding: 5px;
+            width: 700px;
+            height: 50px;
+            font-size: 20px;
+            
+            color: black;
+        }
+        .task_style:nth-child(odd){
+            background-color: rgba(255, 255, 255, 0.952);
+            border: solid 1px black;
+            padding: 5px;
+            width: 700px;
+            height: 50px;
+            font-size: 20px;
+            
+            color: black;
+        }
+
+        .comp_task{
+            width: 50px;
+            height: 50px;
+            border: solid 1px black;
+            color: black;
+            margin-left: 550px;
+            margin-top: -25px;
+        }
+
+        .cutout{
+            text-decoration: line-through;
+            color: rgb(255, 0, 0);
+        }
+
+        .cutout:nth-child(odd){
+            text-decoration: line-through;
+            color: rgb(255, 0, 0);
+        }
+
+        .remove{
+            width: 50px;
+            height: 50px;
+            border: solid 1px black;
+            color: black;
+            margin-left: 50px;
+            margin-top: -25px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div id="main_box">
+   <h1>ADD A TASK:</h1>
+   <input type="text" id="enter_task">
+   <button id="add_task">+</button><br>
+   <div id="task_list">
+    <h2>TO DO LIST: (Total tasks:<b id="count"> 0</b>)</h2><br>
+
+   </div>
+</div>
+</body>
+<script src="hwjs2.js">
+
+</script>
+</html>
